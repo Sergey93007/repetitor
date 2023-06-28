@@ -1,0 +1,231 @@
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+    .head {
+        margin: 0;
+        padding: 0;
+        padding-left: 10px;
+    }
+    
+    .menu_link {
+        margin: 0;
+        padding: 0;
+    }
+    .main_photo {
+        width: 80%;
+    }
+
+    .Name {
+        font-size: 40px;
+    }
+
+    .subheader_connection {
+        border: 50px solid #fff;
+    }
+    .who {
+        margin: auto;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .help {
+        margin: auto;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .one {
+        font-size: 20px;
+    }
+
+    .two {
+        font-size: 18px;
+    }
+
+    .fre {
+        font-size: 20px;
+    }
+
+    .tsu {
+        margin-top: 70px;
+        width: 70%;
+        height: 70%;
+    }
+
+    .lessons {
+        margin-top: 100px;
+    }
+
+    .my_lessons {
+        font-size: 40px;
+    }
+
+    .who_want {
+        font-size: 40px;
+    }
+
+    .want {
+        margin-top: 80px;
+        margin-left: 20px;
+        width: 90%;
+    }
+
+    .line {
+        margin-left: 80px;
+    }
+
+    .photo {
+        margin-top: 100px;
+    }
+
+    .photo_k {
+        width: 80%;
+    }
+
+    .format {
+        margin-top: -80px;
+        padding-bottom: 50px;
+    }
+
+    .work {
+        margin: auto;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .so {
+        margin: auto;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .format_work {
+        padding-top: 20px;
+        margin: auto;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .format_youwork {
+        margin: auto;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .format_description {
+        margin-left: 20px;
+        width: 90%;
+    }
+
+    .format_td {
+        font-size: 13px;
+        padding: 25px;
+    }
+
+    .cost {
+        margin-top: 80px;
+    }
+    .cost_lessons {
+        margin: auto;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .cost_zagl {
+        margin: auto;
+        text-align: center;
+    }
+
+    .individual {
+        font-size: 25px;
+    }
+
+    .individual_cost {
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    .individual_connection {
+        margin-top: -5px;
+        margin-left: 40px;
+        border: 25px solid #B8C8D2;
+        min-width: 150px;
+        font-size: 12px;
+    }
+
+    .mini_group {
+        margin-top: 100px;
+        font-size: 25px;
+        padding-bottom: 30px;
+    }
+
+    .mini_cost {
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    .mini_connection {
+        margin-top: -5px;
+        margin-left: 40px;
+        border: 25px solid #B8C8D2;
+        min-width: 150px;
+        font-size: 12px;
+    }
+
+    .what_says {
+        margin-top: 80px;
+        font-size: 40px;
+    }
+
+    .slider {
+        padding-top: 400px;
+    }
+
+    .slider__nav {
+        width: 20px;
+        height: 20px;
+    }
+
+    .slider__txt {
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+    .slider_description {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .kdst {
+        margin-top: 100px;
+        margin-left: 0;
+        font-size: 25px;
+    }
+
+    .kdst_txt {
+        padding: 50px;
+        padding-left: 60px;
+    }
+
+    .kdsw {
+        margin-top: 80px;
+        margin-left: 0;
+        font-size: 25px;
+    }
+
+    .kdsw_txt {
+        padding: 50px;
+        padding-left: 60px;
+    }
+
+    .last_description {
+        font-size: 20px;
+        margin-left: 200px;
+    }
+
+    .last_photo {
+        width: 70%;
+        height: 70%;
+        margin-left: 5px;
+        margin-top: -200px;
+      }
+}
+

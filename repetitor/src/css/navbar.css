@@ -1,0 +1,153 @@
+li {
+    list-style: none;
+}
+
+.menu_link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-right: 50px;
+    margin-left: 100px;
+}
+
+.menu_link:hover {
+    color: #000000;
+}
+.head {
+    width: 100%;
+    position: fixed;
+    padding: 0 2rem 1rem 2rem;
+    background: rgba(0, 0, 0, 0.33);
+    backdrop-filter: blur(8px);
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 10px 0;
+}
+
+.navbar .logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar .toggle_btn {
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.d_action_btn {  
+    background-color: #fff;
+    color: #000000;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale .2 ease;
+    display: flex;
+}
+
+.d_action_btn:hover {
+    scale: 1.05;
+    color: #000000;
+}
+
+.d_action_btn:active {
+    scale: 0.95;
+}
+
+.action_btn {
+    text-decoration: none;
+    background-color: #fff;
+    color: #000000;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale .2 ease;
+    display: flex;
+}
+
+.action_btn:hover {
+    scale: 1.05;
+    color: #000000;
+}
+
+.action_btn:active {
+    scale: 0.95;
+}
+
+/* dropdown menu */
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    width: 300px;
+    height: 0;
+    background: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown_menu.open {
+    height: 240px;
+}
+
+.dropdown_menu li {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown_menu .d_action_btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* responsive */
+@media(max-width: 992px) {
+    .navbar .links,
+    .navbar .action_btn {
+        display: none;
+    }
+
+    .navbar .toggle_btn {
+        display: block;
+    }
+
+    .dropdown_menu {
+        display: block;
+    }
+}
+
+@media(max-width: 576px) {
+    .dropdown_menu {
+        left: 2rem;
+        width: unset;
+    }
+}
